@@ -136,7 +136,7 @@
             <div class="u-layout-row">
               <div class="u-container-style u-layout-cell u-left-cell u-size-36 u-layout-cell-1">
                 <div class="u-container-layout">
-                <img class="u-image u-image-1" src="<?php echo get_template_directory_uri(); ?>assets/images/3485230f.jpg">                </div>
+                <img class="u-image u-image-1" src="<?php echo get_template_directory_uri(); ?>/assets/css/images/3485230f.jpg">                </div>
               </div>
               <div class="u-align-left u-container-style u-layout-cell u-right-cell u-size-24 u-layout-cell-2">
                 <div class="u-container-layout u-valign-middle u-container-layout-2">
@@ -169,7 +169,7 @@
             <div class="u-layout-row">
               <div class="u-container-style u-layout-cell u-left-cell u-size-30 u-layout-cell-1">
                 <div class="u-container-layout u-container-layout-1">
-                  <img class="u-image u-image-1" src="images/fsae-min.jpg">
+                  <img class="u-image u-image-1" src="<?php echo get_template_directory_uri(); ?>/assets/css/images/fsae-min.jpg">
                 </div>
               </div>
               <div class="u-align-left u-container-style u-layout-cell u-right-cell u-size-30 u-layout-cell-2">

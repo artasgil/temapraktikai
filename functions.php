@@ -64,8 +64,8 @@ function bit_tema_customizer_section($wp_customize) {
     ));
 
     $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize, 'bit_tema_color_select', array(
-        'label' => 'P tag color',
-        'description' => 'Choose footer P tag color',
+        'label' => 'P tag and A tag color',
+        'description' => 'Choose footer P tag and A tag color',
         'section' => 'bit_tema_settings',
         'priority'=> 10
     )));
@@ -156,6 +156,7 @@ function bit_tema_generate_css() {
     $background_color = get_theme_mod('bit_tema_footer_background');
 
     $css .= ".footer p { color:".$color." }";
+    $css .= ".footer a { color:".$color." }";
     $css .= ".footer {background-color:".$background_color."}";
     return $css;
 

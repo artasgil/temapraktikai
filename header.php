@@ -133,6 +133,9 @@ a {
     padding: 5px 15px;
   }
 
+  .header  li a:hover {
+    color: #d63b42;
+  }
 
   .header .menu {
     clear: none;
